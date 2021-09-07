@@ -1,4 +1,5 @@
-import * as React from "react"
+import * as React from "react";
+import Test from '../components/Test';
 
 // styles
 const pageStyles = {
@@ -145,6 +146,7 @@ const IndexPage = () => {
           😎
         </span>
       </p>
+      <Test data={'Test'} />
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
