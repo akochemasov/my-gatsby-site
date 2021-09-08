@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 function Test({data}) {
   console.log('GATSBY_API_KEY', process.env.GATSBY_API_KEY);
+  console.log('CLOUD_KEY', process.env.CLOUD_KEY);
 
   return (
     <h1>
