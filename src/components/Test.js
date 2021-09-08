@@ -2,9 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 function Test({data}) {
+  console.log('GATSBY_API_KEY', process.env.GATSBY_API_KEY);
+
   return (
     <h1>
-      {data}
+      {data} - {process.env.GATSBY_API_KEY}
     </h1>
   )
 }
