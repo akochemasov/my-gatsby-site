@@ -6,7 +6,7 @@ function Test({data}) {
 
   return (
     <h1>
-      {data} - {process.env.GATSBY_API_KEY}
+      {data} - {process.env.GATSBY_API_KEY} - {process.env.CLOUD_KEY}
     </h1>
   )
 }
