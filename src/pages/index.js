@@ -182,9 +182,6 @@ const IndexPage = () => {
       {/* Использовать в крайних случаях, так как есть определенные минусы в использовании папки static */}
       <img src={'/logo2.png'} alt="Logo" style={{width: '20px', height: '20px', border: '1px solid blue'}} />
 
-      {/* Использовать в крайних случаях, так как есть определенные минусы в использовании папки static */}
-      <img src={'/logo.png'} alt="Logo" style={{width: '20px', height: '20px', border: '1px solid blue'}} />
-
       {/* Рекомендованный подход */}
       <img src={Icon} alt="Logo" style={{width: '20px', height: '20px', border: '1px solid red'}}/>
 
