@@ -5,12 +5,12 @@ function Test({data}) {
   console.log(process.env);
   console.log('GATSBY_API_KEY', process.env.GATSBY_API_KEY);
   console.log('CLOUD_KEY', process.env.CLOUD_KEY);
-  console.log('CONTENTFUL_KEY', process.env.CONTENTFUL_KEY);
+  console.log('CONTENTFUL_KEY', process.env.GATSBY_CONTENTFUL_KEY);
   console.log('GATSBY_KEY', process.env.GATSBY_KEY);
 
   return (
     <h1>
-      {data} - {process.env.GATSBY_API_KEY} - {process.env.CLOUD_KEY} - {process.env.CONTENTFUL_KEY}
+      {data} - {process.env.GATSBY_API_KEY} - {process.env.GATSBY_KEY} - {process.env.CONTENTFUL_KEY}
     </h1>
   )
 }
