@@ -149,7 +149,9 @@ const IndexPage = () => {
           😎
         </span>
       </p>
+
       <Test data={'Test'} />
+
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
