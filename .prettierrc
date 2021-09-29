@@ -1,0 +1,31 @@
+{
+  "useTabs": false,
+  "printWidth": 110,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "bracketSameLine": false,
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "parser": "flow",
+  "semi": true,
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "src/**/*.css",
+      "options": {
+        "parser": "css"
+      }
+    },
+    {
+      "files": "public/*.html",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}
