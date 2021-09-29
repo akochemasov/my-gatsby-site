@@ -8,7 +8,7 @@ function Test({ data }) {
 
   useEffect(() => {
     setState(data);
-  }, []);
+  }, [data]);
 
   return (
     <h1>
