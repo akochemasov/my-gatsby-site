@@ -8,6 +8,7 @@ function Test({ data }) {
 
   useEffect(() => {
     setState(data);
+    console.log(data);
   }, []);
 
   return (
